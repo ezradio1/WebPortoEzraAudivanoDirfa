@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.myContent {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-menu {
+  color: green;
+  size: 400px;
+}
+
+.btn-primary {
+  background-color: #ff8653;
+  border-color: transparent;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.nav-link {
+  align-items: center;
+  display: flex;
+}
+
+.sectionOne {
+  margin-top: 25px;
+  padding: 130px 20px;
+  background-color: #11100f;
+  /* background-image: url(./assets/bg-1.png); */
+}
+
+.contentLeft {
+  color: white;
+  margin-top: 25px;
+}
+
+.contentLeft .title {
+  font-weight: bold;
+  font-size: x-large;
+}
+.contentLeft .title span {
+  color: #ff8653;
+}
+
+.contentLeft .subtitle {
+  font-size: medium;
+  color: grey;
+}
+.contentLeft hr {
+  border-color: #ff8653;
+  width: 20%;
+  border-width: 3px;
+}
+
+.dwnCV {
+  background-color: transparent;
+}
+
+.sectionOne .foto {
+  width: 250px;
+}
+
+.sectionOne .button a {
+  text-decoration: none;
+  color: white;
+}
+.sectionOne .sosmed {
+  color: #ff8653;
+}
+.sectionOne .sosmed .btn {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-secondary {
+  border-radius: 100%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-secondary a {
+  text-decoration: none;
+  color: #ff8653;
+}
+
+.sectionTwo {
+  background-color: #1a1919;
+  padding: 130px 20px;
+}
+.sectionTwo .title {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sectionTwo .foto {
+  width: 200px;
+  margin: 10px 50px;
+  justify-content: end;
+}
+
+.sectionTwo .divFoto {
+  display: flex;
+  justify-content: flex-end;
+}
+.sectionTwo .content {
+  color: white;
+  margin: 10px 50px;
+}
+.sectionTwo hr {
+  border-color: #ff8653;
+}
+.sectionTwo .titletwo {
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #11100f;
+  text-align: center;
+  padding: 15px 0;
+  font-size: x-small;
+  color: white;
+  margin: auto;
+}
+.footer p {
+  margin-bottom: 0 !important;
+}
+
+.contact {
+  background-color: #11100f;
+  padding: 90px;
+}
+
+.contact .title {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .btn-secondary {
+  border: 1px solid #ff8653;
+  height: 50px;
+  width: 50px;
+}
+.contact .iconsosmed {
+  padding: 40px;
+}
+
+.contact .divIco {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+  .contentLeft .title {
+    text-align: center;
+  }
+
+  .contentLeft .subtitle {
+    text-align: center;
+  }
+
+  .sectionOne .button {
+    text-align: center;
+  }
+  .sectionOne .sosmed {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sectionOne .foto {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .sectionTwo .content {
+    text-align: center;
+    margin: 0;
+  }
+
+  .sectionTwo .divFoto {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact {
+    /* padding-top: 130px !important; */
+    padding: 10px 0;
+  }
+}
